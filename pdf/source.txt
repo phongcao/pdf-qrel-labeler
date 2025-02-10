@@ -1,0 +1,1 @@
+https://github.com/openai/openai-cookbook/tree/f297551a6b6e4869f6d8f4f390271a867ba4d87d/examples/data/example_pdfs

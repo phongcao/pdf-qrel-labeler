@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Relevance Judging</title>
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Load PDF.js (You can pick a stable version or host it yourself) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.min.js"></script>
+  <script>
+    // Set the workerSrc dynamically if needed
+    // If hosting locally, place pdf.worker.js in the same folder and use relative path
+    pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.14.305/pdf.worker.min.js';
+  </script>
+</head>
+
+<body>
+  <h1>Relevant Page Judging</h1>
+
+  <div class="progress-container">
+    <progress id="progress-bar" value="0" max="100"></progress>
+    <span id="progress-text"></span>
+  </div>
+
+  <div class="question-container" id="question-container">
+    <!-- The current question and its doc canvases will be injected here by JavaScript -->
+  </div>
+
+  <div class="navigation-buttons">
+    <button id="prev-button">Previous</button>
+    <button id="next-button">Next</button>
+    <button id="check-incomplete-button">Incomplete</button>
+  </div>
+
+  <div class="submit-section">
+    <button id="submit-button">Submit</button>
+  </div>
+
+  <!-- Pass parameters via data attributes -->
+  <script src="js/main.js" data-qrel="data/qrels.txt" data-topics="data/reverse_query_mapping.json"
+    data-mapping="data/reverse_doc_mapping.json" data-pdfdir="pdf">
+    </script>
+</body>
+
+</html>
