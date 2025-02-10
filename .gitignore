@@ -26,3 +26,6 @@ Thumbs.db
 .env
 .env.local
 .env.*.local
+
+# Python Related
+__pycache__

@@ -1,0 +1,113 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.question-container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.question-block {
+  margin-bottom: 40px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.question-text {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.doc-block {
+  margin-bottom: 40px;
+  padding: 10px;
+  border-bottom: 2px solid #eee;
+  text-align: center;
+  position: relative;
+}
+
+.doc-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.correct-page-container {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.correct-page-label {
+  margin-right: 10px;
+}
+
+.pdf-canvas {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  border: 1px solid #ccc;
+}
+
+.page-separator {
+  margin-top: 20px;
+}
+
+.navigation-buttons {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.submit-section {
+  margin-top: 40px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.zoom-controls {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.zoom-controls button {
+  margin: 0 2px;
+  padding: 2px 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.progress-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  text-align: center;
+}
+
+#progress-bar {
+  width: 80%;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+#progress-text {
+  font-weight: bold;
+  vertical-align: middle;
+}
