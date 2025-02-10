@@ -1,5 +1,7 @@
 # pdf-qrel-labeler 🏷️📄
 
+![Screenshot](./screenshot.png)
+
 A lightweight web-based tool for ground truth labeling of PDF documents. It presents questions
 and multiple answer candidates (PDF pages) for subject matter experts (SMEs) to review.
 Each question-answer pair is hashed and stored in a
