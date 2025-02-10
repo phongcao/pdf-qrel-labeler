@@ -1,13 +1,13 @@
 # pdf-qrel-labeler 🏷️📄
 
-![Screenshot](./screenshot.png)
-
 A lightweight web-based tool for ground truth labeling of PDF documents. It presents questions
 and multiple answer candidates (PDF pages) for subject matter experts (SMEs) to review.
 Each question-answer pair is hashed and stored in a
 [TREC QREL](https://ir-kit.readthedocs.io/en/latest/trec.html) file to support relevance
 assessment.
 Built using **HTML, JavaScript, PDF.js**, and static web technologies for easy deployment.
+
+![Screenshot](./screenshot.png)
 
 🚀 **Features**:
 
